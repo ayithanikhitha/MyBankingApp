@@ -1,5 +1,3 @@
-<%-- Mastan Swamy --%>
-
 <title>Fund Transfer</title>
 
 <%@ page import="java.sql.*" %>
@@ -10,7 +8,7 @@
         // registering the driver class
         Class.forName("com.mysql.jdbc.Driver");
         // establishing the connection
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/MyBanking","scott","Masthan555!");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/MyBanking","username","password");
 
         Statement st = con.createStatement();
         PreparedStatement pst;
