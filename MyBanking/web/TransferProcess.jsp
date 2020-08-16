@@ -1,5 +1,3 @@
-<%-- Mastan Swamy --%>
-
 <title>Fund Transfer</title>
 
 <%@ page import="java.sql.*" %>
